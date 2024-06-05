@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+body{
+    background-color: black;
+   
+}
+.interface{
+  max-width: 1300px ; 
+  margin: -100px auto;
+  overflow: hidden;
+}
+.menu-desktop{
+  text-align: center; 
+  padding: 20px;
+}
+ 
+.menu-desktop ul{
+  list-style: none;
+  margin: 0;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+.menu-desktop li{
+  margin-right: 65px;
+
+}
+   
+header > .interface{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: "Raleway", sans-serif;
+}
+
+
+header a {
+  text-decoration: none;  
+  color: white;
+  font-size: 26px;
+  display: inline-block;
+  transition: 2s; 
+}
